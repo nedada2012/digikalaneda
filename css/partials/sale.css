@@ -1,0 +1,97 @@
+ .sale{
+    width: 100%;
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    .sale__center{
+        width: 90%;
+        height: inherit;
+        border-radius: 20px;
+        border: 1px solid lightgray;
+        display: flex;
+        flex-flow: column wrap;
+       
+        .sale__center__banner{
+            width:100%;
+            height: 20%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                & h3{
+                    color: black;
+                    font-size: 30px;
+                    font-weight: normal;
+        }}
+        .sale__center__contain{
+            width: 100%;
+            height: 80%;
+            display: flex;
+            flex-flow: row wrap;
+        
+            .sale__center__contain__center{
+                width: 100%;
+                height: 240px;
+                display: flex;
+                flex-flow: row wrap;
+                
+                 .sale__center__contain__divition{
+                width: 16.66%;
+                height: 240px;
+                border: 1px solid lightgray;
+                .sale__center__contain__divition__slid{
+                    display: flex;
+                    flex-flow: column wrap;
+                    .sale__center__contain__divition__slid__image{
+                        margin-bottom: 20px;
+                        margin-top: 20px;
+                        display: flex;
+                        justify-content: center;
+                     & img{
+                        width: 100px;
+                        height: 100px;
+                }
+                    }
+                    .sale__center__contain__divition__slid__discount{
+
+                         display: flex;
+                flex-flow: row-reverse wrap;
+                justify-content: space-between;
+                margin-bottom: 20px;
+                & div:nth-child(1){
+                    font-family: var(--font-family-HOMA);
+                    font-size: 14px;
+                    font-weight: bold;
+                }
+                 & div:nth-child(2){
+                    font-family: var(--font-family-HOMA);
+                    font-size: 14px;
+                    font-weight: bold;
+                    width: fit-content;
+                    border-radius: 5px;
+                    padding: 0 5px;
+                    background-color: crimson;
+                }
+            }
+                    .sale__center__contain__divition__slid__price{
+                        font-family: var(--font-family-HOMA);
+                        width: 100%;
+                        text-align: left;
+                        padding-left: 10px;
+                        text-decoration: line-through;
+                        font-size: 14px;
+                        margin-top: 10px;
+                    }
+
+                    }
+                }
+              
+                }
+            }
+           
+        }
+    }
+} 
+
+        
+
+      

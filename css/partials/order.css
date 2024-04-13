@@ -1,0 +1,21 @@
+.order{
+    width: 100%;
+    height: 240px;
+    display: flex;
+    flex-flow: row wrap;
+    column-gap: 5px;
+    padding: 20px;
+    
+    .order__center{
+        width: 49%;
+        height: inherit;
+        display: flex;
+        flex-flow: row wrap;
+    }
+    & img{
+        height: 240px;
+        width: 600px;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+}

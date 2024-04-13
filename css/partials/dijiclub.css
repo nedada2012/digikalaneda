@@ -1,0 +1,53 @@
+.dijiclub{        
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    .dijiclub__center{
+        width: 90%;
+height: inherit;
+        background-color: #007295;
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        .dijiclub__center__right{
+            width: 20%;
+            height: inherit;
+            display: flex;
+            align-items: center;
+            & svg{
+                margin-right: 30px;
+            }
+        }
+        .dijiclub__center__left{
+            width: 80%;
+            height: inherit;
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: flex-end;
+            align-items: center;
+            .dijiclub__center__left__image{
+                display: flex;
+                flex-flow: row wrap;
+                column-gap: 20px;
+                .dijiclub__dijiclub{
+                    background-color: whitesmoke;
+                    width: 280px;
+                    height: 60px;
+                    display: flex ;
+                    flex-flow: row wrap;
+                    justify-content: flex-end;
+                    align-items: center;
+                    column-gap: 10px;
+                }
+                & img{
+                    width: 160px;
+                    height: 60px;
+                    border-radius: 20px;
+                    object-fit: cover;
+                    
+                }
+            }
+        }
+    }
+}

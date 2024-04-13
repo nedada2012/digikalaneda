@@ -1,0 +1,57 @@
+.superMarket{
+    width: 100%;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    .superMarket__center{
+        width: 90%;
+        height: inherit;
+        background-color: #EBEEEB;
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        .superMarket__center__right{
+            width: 50%;
+            height: inherit;
+            display: flex;
+            flex-flow: row wrap;
+            align-items: center;
+            justify-content: flex-start;
+             column-gap: 10px; 
+            .superMarket__center__right img{
+                width: 66px;
+                height: 62px;
+            }
+            .superMarket__center__right__border{
+                padding: 10px;
+                background-color: #39AE00;
+                border-radius: 20px;
+            }
+          
+        }
+        .superMarket__center__left{
+            width: 50%;
+            height: inherit;
+            display: flex;
+            flex-flow: row wrap;
+            align-items: center;
+            justify-content: flex-end;
+            column-gap: 20px;
+            .superMarket__center__left__image{
+            display: flex;
+            flex-flow: row wrap;
+            & img{
+                width: 66px;
+                height: 62px;
+                margin-left: 10px;
+                border-radius: 50%;
+            }
+            } 
+            .superMarket__center__left__border{
+                padding: 10px;
+                background-color: whitesmoke;
+                border-radius: 20px;
+            }
+        }
+    }
+}

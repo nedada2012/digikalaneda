@@ -1,0 +1,26 @@
+*,*::placeholder{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-family);
+    list-style: none;
+}
+@font-face{
+    font-family: IRANYEKAN;
+    src: url('../../fonts/IRANYekanWeb.eot');
+    src: url('../../fonts/IRANYekanWeb.ttf');
+    src: url('../../fonts/IRANYekanWeb.woff');
+    src: url('../../fonts/IRANYekanWeb.woff2');
+}
+@font-face{
+    font-family: HOMA;
+    src: url('../../fonts/homa/B-NAZANIN.TTF');
+    
+}
+root{
+    --font-family:IRANYEKAN;
+    --font-family-HOMA:HOMA;
+}
+.wraper{
+    width: 100%;
+}
